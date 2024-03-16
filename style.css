@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kalendar{
+    background-color: rgb(38, 38, 43);
+    color: lightgray;
+    width: 450px;
+    height: 520px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .4);
+}
+
+.oy{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(18, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.oy h1{
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.oy p{
+    font-size: 16px;
+}
+
+.hafta{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.hafta div{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kunlar{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+
+.kunlar div{
+    font-size: 16px;
+    margin: 3px;
+    width: 57.5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kunlar div:hover:not(.bosh){
+    border: 2px solid rgb(230, 230, 230);
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.bugun{
+    background-color: rgb(24, 122, 117);
+    border: 2px solid white;
+}
